@@ -1,4 +1,4 @@
-# Smartphone Sensor-Based Indoor Navigation
+# Sensor Data Collection Module
 
 This project demonstrates a conceptual design and implementation of a sensor data collection module for an indoor navigation system using smartphone sensors. The module is developed using Python, Kivy, and Pyjnius to access and process data from various sensors on an Android smartphone.
 
@@ -19,8 +19,8 @@ The indoor navigation system aims to provide accurate localization and navigatio
 ## Features
 
 - Collects and processes data from the smartphone's accelerometer, gyroscope, magnetometer, and barometer.
-- Utilizes Wi-Fi and Bluetooth signals for additional localization.
 - Provides a foundation for further development of data processing, fusion, and user interface modules.
+- **In next steps**: the module will utilize Wi-Fi and Bluetooth signals for additional localization.
 
 ## Requirements
 
@@ -35,7 +35,7 @@ The indoor navigation system aims to provide accurate localization and navigatio
 
     ```sh
     git clone https://github.com/yourusername/indoor-navigation.git
-    cd indoor-navigation
+    cd sdcm
     ```
 
 2. Install the required Python packages:
@@ -43,13 +43,16 @@ The indoor navigation system aims to provide accurate localization and navigatio
     ```sh
     pip install kivy
     pip install pyjnius
+    pip install plyer
+    pip install buildozer
+    pip install cython
     ```
 
 3. Ensure you have an environment that supports Python on Android, such as Pydroid 3 or set up Buildozer to package the application.
 
 ## Usage
 
-1. Save the script as `main.py`.
+1. The script is named as `main.py`.
 
 2. Run the script on your Android device using Pydroid 3 or package it using Buildozer.
 
@@ -69,4 +72,4 @@ The indoor navigation system aims to provide accurate localization and navigatio
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Academic Free License v3.0 license.
